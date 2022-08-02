@@ -76,13 +76,13 @@
 // array，set
 test('测试 toContain', () => {
     const arr = ['immoc','dell','lee']
-    expect(arr).toContain('del')
+    expect(arr).toContain('de')
 })
 
 
 // 异常
 const throwNewErrorFunc = () => {
-    throw new Error('This is an Error')
+    throw new Error('This is an Error1')
 
 }
 test('测试 toContain', () => {
