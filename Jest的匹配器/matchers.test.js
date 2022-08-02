@@ -76,7 +76,7 @@
 // array，set
 test('测试 toContain', () => {
     const arr = ['immoc','dell','lee']
-    expect(arr).toContain('de')
+    expect(arr).toContain('dell')
 })
 
 
